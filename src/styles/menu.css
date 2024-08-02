@@ -15,7 +15,16 @@
 }
 .menu ul {
   list-style-type: none;
+  background-color: rgb(34, 34, 34);
+  border-radius: 5px;
+  margin: 10px;
 }
 .menu ul li {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    position: static;
+  }
 }/*# sourceMappingURL=menu.css.map */

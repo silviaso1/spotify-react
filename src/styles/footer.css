@@ -2,11 +2,76 @@
   position: fixed;
   bottom: 0;
   width: 100%; /* Ajuste conforme a largura do aside */
-  height: 90px; /* Ajuste conforme a altura desejada */
-  background-color: #333; /* Cor de fundo semelhante ao Spotify */
+  height: auto; /* Ajuste conforme a altura desejada */
+  background-color: #1a1919; /* Cor de fundo semelhante ao Spotify */
   color: white; /* Cor do texto */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   z-index: 20; /* Maior que o sidebar */
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.footer .musicaSide,
+.footer .side,
+.footer .tocando {
+  display: flex;
+}
+.footer .musicaSide {
+  margin-left: 20px;
+  font-size: 0.7em;
+}
+.footer .musicaSide img {
+  width: 70px;
+}
+.footer .musicaSide .name {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.footer .musicaSide #like {
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.footer .playerr {
+  margin-left: 32%;
+}
+.footer .playerr .troca {
+  margin-bottom: 18px;
+  width: 12px;
+}
+.footer .playerr #play {
+  width: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.footer .playerr #group {
+  width: 17px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+.footer .playerr #shuffle {
+  margin-bottom: 12px;
+  width: 20px;
+  margin-right: 10px;
+}
+.footer .tocando img {
+  width: 100%;
+  height: 4px;
+}
+.footer .tocando p {
+  font-size: 0.7rem;
+}
+.footer .side {
+  margin-right: 15px;
+}
+.footer .side img {
+  height: 20px;
+  margin-left: 5px;
+}
+.footer .side #volume {
+  height: 5px;
+  margin-top: 8px;
 }/*# sourceMappingURL=footer.css.map */

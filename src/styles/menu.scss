@@ -14,8 +14,20 @@
 
     ul{
         list-style-type: none;
+        background-color: rgba(34, 34, 34, 1);
+        border-radius: 5px;
+        margin: 10px;
+
         li{
             margin-top: 10px;
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+   .menu{
+    position: static;
+   }
+
+    
 }
