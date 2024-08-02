@@ -1,0 +1,23 @@
+.principal {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+}
+.principal .principalDentro {
+  margin-left: 320px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.topo .rightSide {
+  display: flex;
+}
+
+.playlistTopo {
+  background-image: linear-gradient(black, rgb(17, 17, 17), rgb(59, 59, 59));
+  width: 97%;
+  display: flex;
+  color: rgb(245, 245, 245);
+}/*# sourceMappingURL=principal.css.map */

@@ -1,0 +1,12 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Ajuste conforme a largura do aside */
+  height: 90px; /* Ajuste conforme a altura desejada */
+  background-color: #333; /* Cor de fundo semelhante ao Spotify */
+  color: white; /* Cor do texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20; /* Maior que o sidebar */
+}/*# sourceMappingURL=footer.css.map */

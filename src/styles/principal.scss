@@ -1,0 +1,26 @@
+
+.principal{
+    background-color: rgba(34, 34, 34, 1);
+    width: 100%;
+
+    .principalDentro{
+        margin-left: 320px;
+    }
+   
+}
+
+.topo{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    .rightSide{
+        display: flex;
+        
+    }
+}
+.playlistTopo{
+    background-image: linear-gradient(black,rgb(17, 17, 17) ,rgb(59, 59, 59));
+    width: 97%;
+    display: flex;
+    color: rgb(245, 245, 245);
+}
